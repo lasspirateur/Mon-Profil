@@ -1,0 +1,155 @@
+/* Colors and font */
+
+
+body{
+	background: #2D2D2D;
+	color: black;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 16px;
+	text-align: center
+ }
+
+h1{
+	color: #393939;
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	line-height: 40px
+}
+
+h2{
+	color: black;
+	font-size: 24px;
+	font-weight: lighter;
+	text-align: center
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+	text-align: center
+}
+
+
+a:hover {
+	color: white;
+	background-color: black;
+	text-align: center
+}
+
+/*Custom Design */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 500px;
+	}
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0.1);
+	border-radius: 5px;
+	margin: 20px;
+}
+
+#ImageCircle {
+	width: 90px;
+	border-radius: 50%;
+	box-shadow: 0px 2px 10px rgba(0,0,0.1);
+	margin: 0 auto 
+}
+
+.btn-blue {
+	background-color: #272727;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	margin: 20px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 80px;
+	text-indent: 0px;
+    margin-top: 15px;
+}
+
+.carde{
+	margin: 5px;
+	text-align: right
+}
+
+.nondeposte {
+	height: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#tailletexte {
+	font-size: 20px;
+}
+
+.card-white li {
+	text-align: left
+}
+
+.card-white p {
+	height: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+#description {
+	 font-weight: normal;
+	 text-align: left;
+	 font-size: 18px
+}
+
+#ecole {
+	text-align: left;
+	font-weight: normal;
+}
+
+#ecole1 {
+	text-align: left;
+	font-weight: normal;
+}
